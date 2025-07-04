@@ -1,0 +1,1 @@
+export type ActivityIntensity = 'low' | 'medium' | 'high';
