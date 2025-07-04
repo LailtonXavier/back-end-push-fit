@@ -10,6 +10,7 @@
   },
   "scripts": {
     "generate": "prisma generate",
+    "db:push": "npx prisma db push",
     "build": "pnpm run generate && pnpm run db:push && nest build",
     "prepare": "husky",
     "lint-staged": "lint-staged",
