@@ -9,7 +9,7 @@
     "schema": "src/infra/database/prisma/schema.prisma"
   },
   "scripts": {
-    "build": "nest build",
+    "build": "pnpm run generate && pnpm run db:push && nest build",
     "prepare": "husky",
     "lint-staged": "lint-staged",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",

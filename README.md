@@ -67,10 +67,6 @@ A aplicação segue os princípios de **Clean Architecture**, com as seguintes c
 3. **Infrastructure**: Implementações concretas (banco de dados, autenticação, etc.)
 4. **Presentation**: Controladores e DTOs
 
-## 📌 Rotas Principais
-
-(Aqui você pode listar algumas rotas principais da sua API ou referenciar o arquivo de rotas/swagger se tiver documentação)
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
